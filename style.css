@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8C0375;
+    padding: 1rem;
+}

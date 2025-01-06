@@ -11,3 +11,10 @@
     background-color: #8C0375;
     padding: 1rem;
 }
+
+.contenido__principal {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    gap: 2rem;
+}

@@ -15,7 +15,11 @@
     justify-content: center;
     align-items: center;
     background-color: var(--color-primario);
-    padding: 1rem;
+    padding: 1.5rem;
+}
+
+.header img {
+    height: auto;
 }
 
 .contenido__principal {
@@ -26,17 +30,19 @@
 }
 
 .sub__titulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
 .card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    max-height: 70%;
+    width: 100%;
+    max-height: 110vh;
     overflow-y: auto;
     box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.4);
     transition: transform 0.2s, box-shadow 0.2s;
@@ -55,6 +61,11 @@
 .card__contenido:hover {
     transform: translateY(-10px);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card__contenido img {
+    height: auto;
+    border-radius: 0.5rem;
 }
 
 .card__contenido p {
@@ -84,6 +95,8 @@
 .formulario {
     display: flex;
     flex-direction: column;
+    width: 25rem;
+    margin: auto;
 }
 
 .formulario input {
@@ -91,6 +104,7 @@
     margin: 0.5rem;
     border-radius: 1.5rem;
     border: 0.2rem solid var(--color-secundario);
+    width: 100%;
 }
 
 .formulario input::placeholder {

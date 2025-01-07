@@ -40,3 +40,16 @@
     border-radius: 1rem;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
+
+.card__contenido p {
+    color: #FFFFFF;
+}
+
+.card__nombre {
+    font-size: 0.8rem;
+}
+
+.card__precio {
+    font-size: 1.2rem;
+    font-weight: bold;
+}

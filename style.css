@@ -64,3 +64,9 @@
     font-size: 1.2rem;
     font-weight: bold;
 }
+
+.card__boton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

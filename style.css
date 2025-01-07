@@ -30,6 +30,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+    max-height: 50%;
+    overflow: auto;
 }
 
 .card__contenido {

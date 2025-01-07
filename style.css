@@ -15,7 +15,7 @@
 .contenido__principal {
     display: flex;
     justify-content: center;
-    padding: 5rem;
+    padding: 3rem;
     gap: 2rem;
 }
 
@@ -30,8 +30,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    max-height: 50vh;
-    overflow: auto;
+    max-height: 70%;
+    overflow-y: auto;
 }
 
 .card__contenido {

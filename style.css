@@ -32,12 +32,21 @@
     gap: 1rem;
     max-height: 70%;
     overflow-y: auto;
+    box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s, box-shadow 0.2s; 
 }
 
 .card__contenido {
     background-color: #5D04D9;
-    padding: 1rem;
+    padding: 0.7rem;
+    margin: 1rem;
     border-radius: 1rem;
+    border: 0.2rem solid #000000;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card__contenido:hover {
+    transform: translateY(-10px);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 

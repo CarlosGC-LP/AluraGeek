@@ -43,6 +43,7 @@
     border-radius: 1rem;
     border: 0.2rem solid #000000;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
 }
 
 .card__contenido:hover {
@@ -69,4 +70,7 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+    position: absolute;
+    bottom: 10px; 
+    right: 10px;
 }

@@ -158,12 +158,28 @@
 
     .card {
         grid-template-columns: repeat(2, 1fr);
-        gap: 0.1rem;
+        gap: 1rem;
+        max-height: 65vh;
     }
 
     .card__contenido {
-        margin: 0.3rem;
-        padding: 0.4rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .card__contenido img {
+        width: 125px; /* Tamaño más pequeño de la imagen */
+        height: auto; /* Mantén la proporción de la imagen */
+        margin: auto;
+    }
+
+    .card__nombre, .card__precio {
+        font-size: 1rem; /* Reduce el tamaño del texto */
+    }
+
+    .card__boton img {
+        width: 20px;
+        height: auto;
     }
 }
 

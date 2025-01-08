@@ -110,3 +110,15 @@
 .formulario input::placeholder {
     color: var(--color-secundario);
 }
+
+.boton__formulario {
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 0.2rem solid var(--color-secundario);
+    border-radius: 1rem;
+    background-color: var(--color-letras);
+    color: var(--color-primario);
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}

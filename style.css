@@ -168,13 +168,13 @@
     }
 
     .card__contenido img {
-        width: 125px; /* Tamaño más pequeño de la imagen */
-        height: auto; /* Mantén la proporción de la imagen */
+        width: 125px; 
+        height: auto; 
         margin: auto;
     }
 
     .card__nombre, .card__precio {
-        font-size: 1rem; /* Reduce el tamaño del texto */
+        font-size: 1rem;
     }
 
     .card__boton img {

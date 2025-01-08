@@ -19,11 +19,13 @@
 }
 
 .header img {
+    max-width: 100%;
     height: auto;
 }
 
 .contenido__principal {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 3rem;
     gap: 10rem;
@@ -148,13 +150,20 @@
 }
 
 /*Para moviles*/
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .contenido__principal {
-        flex-direction: column;
+        flex-direction: row;
+        gap: 4rem;
     }
 
     .card {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.1rem;
+    }
+
+    .card__contenido {
+        margin: 0.3rem;
+        padding: 0.4rem;
     }
 }
 

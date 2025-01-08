@@ -146,3 +146,21 @@
 .footer p {
     color: var(--color-letras);
 }
+
+/*Para moviles*/
+@media (max-width: 600px) {
+    .contenido__principal {
+        flex-direction: column;
+    }
+
+    .card {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .card {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}

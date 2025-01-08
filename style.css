@@ -42,7 +42,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     width: 100%;
-    max-height: 110vh;
+    max-height: 105vh;
     overflow-y: auto;
     box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.4);
     transition: transform 0.2s, box-shadow 0.2s;
@@ -112,6 +112,11 @@
 }
 
 .boton__formulario {
+    display: flex;
+    flex-direction: row;
+}
+
+.boton__formulario button {
     padding: 1rem;
     margin: 0.5rem;
     border: 0.2rem solid var(--color-secundario);
@@ -119,6 +124,12 @@
     background-color: var(--color-letras);
     color: var(--color-primario);
     font-weight: bold;
+    font-size: 1rem;
     cursor: pointer;
     width: 100%;
+}
+
+.boton__formulario button:hover {
+    background-color: var(--color-secundario);
+    color: var(--color-letras);
 }

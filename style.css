@@ -103,7 +103,7 @@
 
 .formulario input {
     padding: 1rem;
-    margin: 0.5rem;
+    margin-bottom: 1rem;
     border-radius: 1.5rem;
     border: 0.2rem solid var(--color-secundario);
     width: 100%;
@@ -152,7 +152,7 @@
 /*Para moviles*/
 @media (max-width: 768px) {
     .contenido__principal {
-        flex-direction: row;
+        flex-wrap: wrap-reverse;
         gap: 4rem;
     }
 
@@ -181,9 +181,17 @@
         width: 20px;
         height: auto;
     }
+
+    .formulario {
+        width: 20rem;
+    }
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
+    .contenido__principal {
+        gap: 5rem;
+    }
+
     .card {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;

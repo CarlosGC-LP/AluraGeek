@@ -70,6 +70,10 @@
     border-radius: 0.5rem;
 }
 
+.card__imagen {
+    max-width: 176px;
+}
+
 .card__contenido p {
     color: var(--color-letras);
     margin-top: 1rem;

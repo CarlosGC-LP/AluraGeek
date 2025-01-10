@@ -3,11 +3,11 @@ import { conexionAPI } from "./conexionAPI.js";
 const card = document.querySelector("[data-card]");
 
 function crearCard(nombre, precio, imagen) {
-    const card = document.createElement("div");
+    const producto = document.createElement("div");
 
-    card.className = "card__contenido";
-    card.innerHTML = `
-        <img src="image/${imagen}.png" alt="Imagen producto">
+    producto.className = "card__contenido";
+    producto.innerHTML = `
+        <img src="${imagen}" alt="Imagen producto">
         <p class="card__nombre">${nombre}r</p>
         <p class="card__precio">S/${precio}</p>
         <button class="card__boton">
@@ -15,13 +15,13 @@ function crearCard(nombre, precio, imagen) {
         </button>  
     `;
 
-    return card;
+    return producto;
 }
 
 async function listarCard() {
     const listaAPI = await conexionAPI.listaProductos();
 
-    listaAPI.forEach(producto => lista.appendChild(crearCard(card.nombre, card.precio, card.imagen)));
+    listaAPI.forEach(producto => card.appendChild(crearCard(producto.nombre, producto.precio, producto.imagen)));
 }
 
 listarCard();

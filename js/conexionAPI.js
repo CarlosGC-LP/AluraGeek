@@ -24,8 +24,18 @@ async function enviarCard(nombre, precio, imagen) {
     return conexionConvertida;
 }
 
+async function eliminarProducto(id) {
+    const conexion = await fetch(`http://localhost:3001/productos/${id}`, {
+        method: "DELETE",
+    });
+
+    const respuesta = await conexion.json();
+    
+    return respuesta;
+}
+
 export const conexionAPI = {
-    listaProductos, enviarCard
+    listaProductos, enviarCard, eliminarProducto
 }
 
 //listaProductos();

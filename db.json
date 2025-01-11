@@ -7,10 +7,10 @@
       "id": "eca0"
     },
     {
-      "id": "8cfd",
-      "nombre": "Mario Bros",
-      "precio": "30.00",
-      "imagen": "https://fanfun.com.pe/cdn/shop/products/6_5c691702-6ee9-4208-8ff9-a66e2401a913.png?v=1710383021&width=800"
-    }
+        "id": "8cfd",
+        "nombre": "Mario Bros",
+        "precio": "30.00",
+        "imagen": "https://fanfun.com.pe/cdn/shop/products/6_5c691702-6ee9-4208-8ff9-a66e2401a913.png?v=1710383021&width=800"
+      }
   ]
 }

@@ -8,7 +8,7 @@ function crearCard(nombre, precio, imagen) {
     producto.className = "card__contenido";
     producto.innerHTML = `
         <img class="card__imagen" src="${imagen}" alt="Imagen producto">
-        <p class="card__nombre">${nombre}r</p>
+        <p class="card__nombre">${nombre}</p>
         <p class="card__precio">S/${precio}</p>
         <button class="card__boton">
             <img src="image/iconTacho.png" alt="icono tacho">

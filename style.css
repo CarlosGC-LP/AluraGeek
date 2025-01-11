@@ -122,24 +122,6 @@
     flex-direction: row;
 }
 
-.boton__enviar {
-    padding: 1rem;
-    margin: 0.5rem;
-    border: 0.2rem solid var(--color-secundario);
-    border-radius: 1rem;
-    background-color: var(--color-letras);
-    color: var(--color-primario);
-    font-weight: bold;
-    font-size: 1rem;
-    cursor: pointer;
-    width: 100%;
-}
-
-.boton__enviar:hover {
-    background-color: var(--color-secundario);
-    color: var(--color-letras);
-}
-
 .boton__formulario button {
     padding: 1rem;
     margin: 0.5rem;

@@ -1,9 +1,22 @@
 {
-    "productos": [
-        {
-            "nombre": "Captain America",
-            "precio": "20",
-            "imagen": "https://acdn.mitiendanube.com/stores/171/765/products/20210714_2047441-c875e20b515d6bda1116263077431160-480-0.jpg"
-        }
-    ]
+  "productos": [
+    {
+      "nombre": "Captain America",
+      "precio": "20",
+      "imagen": "https://acdn.mitiendanube.com/stores/171/765/products/20210714_2047441-c875e20b515d6bda1116263077431160-480-0.jpg",
+      "id": "eca0"
+    },
+    {
+      "id": "8cfd",
+      "nombre": "Mario Bros",
+      "precio": "30.00",
+      "imagen": "https://fanfun.com.pe/cdn/shop/products/6_5c691702-6ee9-4208-8ff9-a66e2401a913.png?v=1710383021&width=800"
+    },
+    {
+      "id": "2d24",
+      "nombre": "Hulk",
+      "precio": "40.00",
+      "imagen": "https://i0.wp.com/abejareinaperu.com/wp-content/uploads/2021/06/taza-puno-hulk-3d.jpg?fit=800%2C800&ssl=1"
+    }
+  ]
 }

@@ -6,13 +6,13 @@ async function listaProductos() {
     return conexionConvertida;
 }
 
-async function crearCard(nombre, precio, imagen) {
+async function enviarCard(nombre, precio, imagen) {
     const conexion = await fetch("http://localhost:3001/productos", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify({
+        body: JSON.stringify ({
             nombre: nombre,
             precio: precio,
             imagen: imagen
@@ -25,7 +25,7 @@ async function crearCard(nombre, precio, imagen) {
 }
 
 export const conexionAPI = {
-    listaProductos, crearCard
+    listaProductos, enviarCard
 }
 
 //listaProductos();
